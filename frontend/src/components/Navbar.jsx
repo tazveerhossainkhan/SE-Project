@@ -32,9 +32,9 @@ const Navbar = () => {
     const handleLogOut = () => {
         logout()
     }
-    const currentUser = true;
+    const currentUser = false;
 
-    //const token = localStorage.getItem('token');
+    const token = localStorage.getItem('token');
   
     return (
         <header className="max-w-screen-2xl mx-auto px-4 py-6">
