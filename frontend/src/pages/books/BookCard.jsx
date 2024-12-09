@@ -8,7 +8,7 @@ import { Link } from'react-router-dom'
 //import { addToCart } from '../../redux/features/cart/cartSlice'
 
 const BookCard = ({book}) => {
-    const dispatch =  useDispatch();
+    //const dispatch =  useDispatch();
 
     const handleAddToCart = (product) => {
         dispatch(addToCart(product))
