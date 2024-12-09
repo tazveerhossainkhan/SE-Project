@@ -121,7 +121,7 @@ const TopSellers = () => {
     const [selectedCategory, setSelectedCategory] = useState("Choose a genre");
 
     useEffect(() =>{
-        fetch("books.json")
+        fetch("pets.json")
             .then(res => res.json())
             .then((data) => setBooks(data))
     },[])
