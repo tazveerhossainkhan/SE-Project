@@ -18,7 +18,7 @@ const BookCard = ({book}) => {
             <div
                 className="flex flex-col sm:flex-row sm:items-center sm:h-72  sm:justify-center gap-4"
             >
-                <div className="sm:h-72 sm:flex-shrink-0 border rounded-md">
+                <div className="w-40 h-48 sm:h-72 sm:flex-shrink-0 border rounded-md">
                     <Link to={`/books/${book._id}`}>
                         <img
                             src={`${getImgUrl(book?.coverImage)}`}
