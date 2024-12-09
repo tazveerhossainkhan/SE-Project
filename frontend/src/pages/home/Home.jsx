@@ -1,14 +1,3 @@
-// import React from 'react'
-// import Banner from './Banner'
-
-// const Home = () => {
-//   return (
-//     <Banner/>
-//   )
-// }
-
-// export default Home
-
 import React from 'react'
 
 import bannerImg from "../../assets/banner.png"
