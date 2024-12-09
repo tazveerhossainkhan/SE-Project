@@ -23,15 +23,15 @@
 // import 'swiper/css/navigation';
 // import { useFetchAllBooksQuery } from '../../redux/features/books/booksApi';
 
-// const categories = ["Choose a genre", "Business", "Fiction", "Horror", "Adventure"]
+// const categories = ["Choose a pet", "Business", "Fiction", "Horror", "Adventure"]
 
 // const TopSellers = () => {
     
-//     const [selectedCategory, setSelectedCategory] = useState("Choose a genre");
+//     const [selectedCategory, setSelectedCategory] = useState("Choose a pet");
 
 //    const {data: books = []} = useFetchAllBooksQuery();
   
-//     const filteredBooks = selectedCategory === "Choose a genre" ? books : books.filter(book => book.category === selectedCategory.toLowerCase())
+//     const filteredBooks = selectedCategory === "Choose a pet" ? books : books.filter(book => book.category === selectedCategory.toLowerCase())
 
 //     return (
 //         <div className='py-10'>
@@ -107,18 +107,18 @@ import 'swiper/css/pagination';
 import 'swiper/css/navigation';
 //import { useFetchAllBooksQuery } from '../../redux/features/books/booksApi';
 
-const categories = ["Choose a genre", "Dog", "Puppy", "Cat", "Kitten"]
+const categories = ["Choose a pet", "Dog", "Puppy", "Cat", "Kitten"]
 
 const TopSellers = () => {
     
-//     const [selectedCategory, setSelectedCategory] = useState("Choose a genre");
+//     const [selectedCategory, setSelectedCategory] = useState("Choose a pet");
 
 //    const {data: books = []} = useFetchAllBooksQuery();
   
-//     const filteredBooks = selectedCategory === "Choose a genre" ? books : books.filter(book => book.category === selectedCategory.toLowerCase())
+//     const filteredBooks = selectedCategory === "Choose a pet" ? books : books.filter(book => book.category === selectedCategory.toLowerCase())
 
     const [books, setBooks] = useState([]);
-    const [selectedCategory, setSelectedCategory] = useState("Choose a genre");
+    const [selectedCategory, setSelectedCategory] = useState("Choose a pet");
 
     useEffect(() =>{
         fetch("pets.json")
@@ -126,7 +126,7 @@ const TopSellers = () => {
             .then((data) => setBooks(data))
     },[])
 
-    const filteredBooks = selectedCategory ==="Choose a genre"? books: books.filter(book =>
+    const filteredBooks = selectedCategory ==="Choose a pet"? books: books.filter(book =>
         book.category === selectedCategory.toLowerCase())
 
     return (
