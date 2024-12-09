@@ -1,0 +1,202 @@
+[
+    {
+        "_id": 1,
+        "title": "Buddy the Beagle",
+        "description": "A playful and loyal companion, perfect for active families.",
+        "category": "dogs",
+        "trending": true,
+        "coverImage": "book-1.png",
+        "oldPrice": 500,
+        "newPrice": 400
+    },
+    {
+        "_id": 2,
+        "title": "Luna the Persian Cat",
+        "description": "A beautiful and affectionate Persian cat with luxurious fur.",
+        "category": "cats",
+        "trending": true,
+        "coverImage": "book-2.png",
+        "oldPrice": 700,
+        "newPrice": 600
+    },
+    {
+        "_id": 3,
+        "title": "Max the Golden Retriever",
+        "description": "A friendly and intelligent dog, great with kids and families.",
+        "category": "dogs",
+        "trending": true,
+        "coverImage": "book-3.png",
+        "oldPrice": 800,
+        "newPrice": 700
+    },
+    {
+        "_id": 4,
+        "title": "Chirpy the Parrot",
+        "description": "An entertaining parrot that loves to mimic and play.",
+        "category": "birds",
+        "trending": false,
+        "coverImage": "book-4.png",
+        "oldPrice": 150,
+        "newPrice": 120
+    },
+    {
+        "_id": 5,
+        "title": "Snowball the Rabbit",
+        "description": "A cuddly white rabbit, perfect for small pet lovers.",
+        "category": "small pets",
+        "trending": true,
+        "coverImage": "book-5.png",
+        "oldPrice": 100,
+        "newPrice": 80
+    },
+    {
+        "_id": 6,
+        "title": "Cleo the Siamese Cat",
+        "description": "A sleek and elegant Siamese cat with a loving personality.",
+        "category": "cats",
+        "trending": false,
+        "coverImage": "book-6.png",
+        "oldPrice": 600,
+        "newPrice": 500
+    },
+    {
+        "_id": 7,
+        "title": "Rex the German Shepherd",
+        "description": "A loyal and protective dog, ideal for security and companionship.",
+        "category": "dogs",
+        "trending": true,
+        "coverImage": "book-7.png",
+        "oldPrice": 900,
+        "newPrice": 850
+    },
+    {
+        "_id": 8,
+        "title": "Goldie the Goldfish",
+        "description": "A serene and beautiful goldfish, perfect for aquariums.",
+        "category": "fish",
+        "trending": true,
+        "coverImage": "book-8.png",
+        "oldPrice": 20,
+        "newPrice": 15
+    },
+    {
+        "_id": 9,
+        "title": "Bella the Bulldog",
+        "description": "A charming and easygoing bulldog, great for relaxed households.",
+        "category": "dogs",
+        "trending": false,
+        "coverImage": "book-9.png",
+        "oldPrice": 750,
+        "newPrice": 650
+    },
+    {
+        "_id": 10,
+        "title": "Whiskers the Tabby Cat",
+        "description": "A playful and curious tabby cat who loves attention.",
+        "category": "cats",
+        "trending": true,
+        "coverImage": "book-10.png",
+        "oldPrice": 400,
+        "newPrice": 350
+    },
+    {
+        "_id": 11,
+        "title": "Shadow the Labrador",
+        "description": "A gentle and loving Labrador Retriever, perfect for all ages.",
+        "category": "dogs",
+        "trending": true,
+        "coverImage": "book-11.png",
+        "oldPrice": 850,
+        "newPrice": 750
+    },
+    {
+        "_id": 12,
+        "title": "Sunny the Canary",
+        "description": "A cheerful and melodious canary to brighten your day.",
+        "category": "birds",
+        "trending": true,
+        "coverImage": "book-12.png",
+        "oldPrice": 60,
+        "newPrice": 50
+    },
+    {
+        "_id": 13,
+        "title": "Fluffy the Hamster",
+        "description": "A tiny, adorable hamster that's easy to care for.",
+        "category": "small pets",
+        "trending": true,
+        "coverImage": "book-13.png",
+        "oldPrice": 40,
+        "newPrice": 30
+    },
+    {
+        "_id": 14,
+        "title": "Buddy the Beagle",
+        "description": "A perfect blend of energy and loyalty for active families.",
+        "category": "dogs",
+        "trending": false,
+        "coverImage": "book-14.png",
+        "oldPrice": 500,
+        "newPrice": 450
+    },
+    {
+        "_id": 15,
+        "title": "Paws the Siamese Kitten",
+        "description": "A charming Siamese kitten who loves to explore and cuddle.",
+        "category": "cats",
+        "trending": false,
+        "coverImage": "book-15.png",
+        "oldPrice": 450,
+        "newPrice": 350
+    },
+    {
+        "_id": 16,
+        "title": "Blaze the Husky",
+        "description": "An energetic and striking Husky, perfect for colder climates.",
+        "category": "dogs",
+        "trending": false,
+        "coverImage": "book-16.png",
+        "oldPrice": 950,
+        "newPrice": 850
+    },
+    {
+        "_id": 17,
+        "title": "Coco the Cockatiel",
+        "description": "An adorable and friendly cockatiel that loves company.",
+        "category": "birds",
+        "trending": true,
+        "coverImage": "book-17.png",
+        "oldPrice": 120,
+        "newPrice": 100
+    },
+    {
+        "_id": 18,
+        "title": "Smokey the Russian Blue Cat",
+        "description": "An elegant Russian Blue cat with a calm temperament.",
+        "category": "cats",
+        "trending": true,
+        "coverImage": "book-18.png",
+        "oldPrice": 650,
+        "newPrice": 550
+    },
+    {
+        "_id": 19,
+        "title": "Finn the Siamese Fighting Fish",
+        "description": "A vibrant Betta fish that adds color to any aquarium.",
+        "category": "fish",
+        "trending": true,
+        "coverImage": "book-19.png",
+        "oldPrice": 15,
+        "newPrice": 10
+    },
+    {
+        "_id": 20,
+        "title": "Milo the Maltese",
+        "description": "A small, fluffy Maltese that’s ideal for indoor living.",
+        "category": "dogs",
+        "trending": false,
+        "coverImage": "book-20.png",
+        "oldPrice": 600,
+        "newPrice": 500
+    }
+]
